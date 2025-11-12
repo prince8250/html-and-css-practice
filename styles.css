@@ -78,3 +78,25 @@
     border: 1px solid rgb(10, 102, 194);
     font-size: 17px;
 }
+
+
+
+.cart.add{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    padding: 12px 35px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
+
+.cart.buy{
+    background-color: rgb(255, 164, 28);
+    color: black;
+    padding: 12px 40px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
