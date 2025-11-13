@@ -1,0 +1,137 @@
+.reqeust-button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: opacity 0.15s;
+}
+
+.reqeust-button:hover{
+    opacity: 0.8;
+}
+
+.reqeust-button:active{
+    opacity: 0.5;
+}
+
+.Add-button{
+    border: none;
+    background-color: rgb(255, 216, 20);
+    color: black;
+    padding: 15px 50px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.Add-button:hover{
+    background-color: rgb(209, 177, 17);
+}
+
+.Add-button:active{
+    background-color: rgb(153, 129, 11);
+}
+
+.Sign-up-button{
+    border: none;
+    background-color: rgb(46, 164, 79);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 100px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3)
+}
+
+.Sign-up-button:active{
+    transform: translate(5px, 5px);
+    box-shadow: none;
+}
+
+.Bootstrap.getStarted{
+    border: none;
+    background-color: rgb(121, 82, 179);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: padding 0.15s;
+}
+
+.Bootstrap.getStarted:hover{
+    padding: 30px 45px;
+}
+
+.Bootstrap.download{
+    background-color: rgb(231, 244, 255);
+    color: grey;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 30px;
+    cursor: pointer;
+    border: solid;
+    border-color: grey;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.linkedin.applyButton{
+    border: none;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(10, 102, 194);
+    padding: 15px 25px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    margin:15px;
+}
+
+.linkedin.saveButton{
+    padding: 15px 25px;
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid rgb(10, 102, 194);
+    font-size: 17px;
+}
+
+
+
+.cart.add{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    padding: 12px 35px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
+
+.cart.buy{
+    background-color: rgb(255, 164, 28);
+    color: black;
+    padding: 12px 40px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
+
+.in-stock{
+    color: green;
+    font-size: 25px;
+}
